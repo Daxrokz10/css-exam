@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Items/Images/contact-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+label{
+    display: none;
+}
+.form-container{
+    display: flex;
+    margin-left: 37%;
+    margin-top: 10%;
+}
+form h1{
+    color: white;
+    padding-top: 25px;
+    font-size: 40px;
+}
+form input{
+    height: 35px;
+    width: 80%;
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 5px;
+}
+form textarea{
+    height: 65px;
+    width: 90%;
+    margin-top: 12%;
+    border: 0px;
+    border-radius: 5px;
+
+}
+form button{
+    height: 35px;
+    width: 25%;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+form{
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+}

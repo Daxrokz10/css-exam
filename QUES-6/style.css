@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Items/Images/contact-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.testimonial{
+    display: flex;
+    margin-left: 7%;
+}
+.testimonial-item{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    margin: 40px;
+}
+.testimonial-item img{
+    height: 100px;
+    border-radius: 50%;
+    margin-top:20px ;
+}
+.testimonial-item h1{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.testimonial-item p{
+    color: white;
+    padding-bottom: 10px;
+}
+.testimonial-item i{
+    color: navy ;
+    font-size: 20px;
+}

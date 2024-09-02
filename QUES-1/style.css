@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Items/Images/bg-image.jpg);
+    background-size: cover;
+}
+.blog img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.blog{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 32%;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 10px;
+}
+.blog h1{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}

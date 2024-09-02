@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    position: absolute;
+    background-image: url(../Items/Images/insurance-footer-background.png);
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+}
+.contact{
+    width: 250px;
+    margin-left: 40px;
+    display: inline-block;
+}
+.contact i{
+    font-size: 40px;
+}
+.about{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 60%;
+}
+.about a{
+    display: block;
+    margin-top: 10px;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+footer li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
