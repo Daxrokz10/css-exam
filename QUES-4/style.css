@@ -42,6 +42,13 @@ footer li{
     list-style: none;
     padding-bottom: 10px;
 }
+footer p{
+    color: white;
+}
+footer h3{
+    font-size: 30px;
+    color: #999999;
+}
 a{
     color: white;
     text-decoration: none;
